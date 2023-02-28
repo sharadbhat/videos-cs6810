@@ -1,0 +1,25 @@
+[
+    {
+        "topicName": "Metrics: Power",
+        "videos": [
+            "http://www.youtube.com/watch?v=ZJCuWcmFWSk",
+            "http://www.youtube.com/watch?v=1F708TRvAWY"
+        ]
+    },
+    {
+        "topicName": "Metrics: Reliability, Cost, Performance",
+        "videos": [
+                "http://www.youtube.com/watch?v=nYVkMKx9Sao",
+                "http://www.youtube.com/watch?v=xM-FzS96heo",
+                "http://www.youtube.com/watch?v=4nbxUVqxLH8"
+        ]
+    },
+    {
+        "topicName": "Pipelining Basics",
+        "videos": [
+            "http://www.youtube.com/watch?v=DxOGkwFQ8EU",
+            "http://www.youtube.com/watch?v=gXGflZ45TWg",
+            "http://www.youtube.com/watch?v=5rFCpDxMsxY"
+        ]
+    }
+]
