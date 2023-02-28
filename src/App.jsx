@@ -8,7 +8,7 @@ import {
 
 // Components
 import VideoList from './components/VideoList'
-import VideoEmbed from './components/videoEmbed'
+import VideoEmbed from './components/VideoEmbed'
 
 export default function App() {
     const theme = useMantineTheme()
@@ -26,10 +26,7 @@ export default function App() {
                 styles={{
                     main: {
                         background: theme.colors.dark[8],
-                    },
-                    navbar: {
-                        background: theme.colors.dark[8],
-                    },
+                    }
                 }}
             >
                 <VideoEmbed />
