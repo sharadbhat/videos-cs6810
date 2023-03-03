@@ -15,9 +15,9 @@ const VideoEmbed = () => {
                 height='349'
                 src={`https://www.youtube.com/embed/${currentVideoURL}?autoplay=${autoplay}`}
                 title='YouTube video player'
-                frameborder='0'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
                 allowFullScreen
+                style={{ border: 0 }}
             >
             </iframe>
         </div>

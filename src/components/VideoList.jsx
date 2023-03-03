@@ -18,6 +18,7 @@ const VideoList = () => {
             urls.add(url)
             panelContent.push(
                 <Box
+                    key={j.toString()}
                     style={{ height: 40 }}
                     component='a'
                     onClick={() => changeVideoURL(url)}
