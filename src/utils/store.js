@@ -1,8 +1,9 @@
 import { create } from 'zustand'
 
 const useStore = create((set) => ({
-    currentVideoURL: 'https://www.youtube.com/embed/ZJCuWcmFWSk',
-    changeVideoURL: (url) => set(() => ({ currentVideoURL: url }))
+    currentVideoURL: 'ZJCuWcmFWSk',
+    changeVideoURL: (url) => set(() => ({ currentVideoURL: url, autoplay: 1 })),
+    autoplay: 0
 }))
 
 export default useStore

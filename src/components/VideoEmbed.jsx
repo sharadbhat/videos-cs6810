@@ -1,5 +1,3 @@
-import React from 'react'
-
 // Utils
 import useStore from '../utils/store'
 
@@ -8,13 +6,14 @@ import './videoEmbed.css'
 
 const VideoEmbed = () => {
     const currentVideoURL = useStore((state) => state.currentVideoURL)
+    const autoplay = useStore((state) => state.autoplay)
     
     return (
         <div className='videoWrapper'>
             <iframe
                 width='560'
                 height='349'
-                src={currentVideoURL}
+                src={`https://www.youtube.com/embed/${currentVideoURL}?autoplay=${autoplay}`}
                 title='YouTube video player'
                 frameborder='0'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'

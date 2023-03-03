@@ -2,7 +2,6 @@ import {
     MantineProvider,
     AppShell,
     Navbar,
-    useMantineTheme,
     ScrollArea
 } from '@mantine/core'
 
@@ -11,9 +10,8 @@ import VideoList from './components/VideoList'
 import VideoEmbed from './components/VideoEmbed'
 
 export default function App() {
-    const theme = useMantineTheme()
     return (
-        <MantineProvider withGlobalStyles withNormalizeCSS>
+        <MantineProvider theme={{ colorScheme: 'dark' }} withGlobalStyles withNormalizeCSS>
             <AppShell
                 padding='md'
                 navbar={
@@ -23,11 +21,6 @@ export default function App() {
                         </ScrollArea>
                     </Navbar>
                 }
-                styles={{
-                    main: {
-                        background: theme.colors.dark[8],
-                    }
-                }}
             >
                 <VideoEmbed />
             </AppShell>

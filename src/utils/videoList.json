@@ -2,24 +2,205 @@
     {
         "topicName": "Metrics: Power",
         "videos": [
-            "https://www.youtube.com/embed/ZJCuWcmFWSk",
-            "https://www.youtube.com/embed/1F708TRvAWY"
+            "ZJCuWcmFWSk",
+            "1F708TRvAWY"
         ]
     },
     {
         "topicName": "Metrics: Reliability, Cost, Performance",
         "videos": [
-                "https://www.youtube.com/embed/nYVkMKx9Sao",
-                "https://www.youtube.com/embed/xM-FzS96heo",
-                "https://www.youtube.com/embed/4nbxUVqxLH8"
+                "nYVkMKx9Sao",
+                "xM-FzS96heo",
+                "4nbxUVqxLH8"
         ]
     },
     {
         "topicName": "Pipelining Basics",
         "videos": [
-            "https://www.youtube.com/embed/DxOGkwFQ8EU",
-            "https://www.youtube.com/embed/gXGflZ45TWg",
-            "https://www.youtube.com/embed/5rFCpDxMsxY"
+            "DxOGkwFQ8EU",
+            "gXGflZ45TWg",
+            "5rFCpDxMsxY"
+        ]
+    },
+    {
+        "topicName": "Pipelining Hazards",
+        "videos": [
+            "euhQ_hdDGA8",
+            "Hq1XlypZip8",
+            "ZQot4fJJPzo"
+        ]
+    },
+    {
+        "topicName": "Pipeline Extensions",
+        "videos": [
+            "s0RUg3ribfw",
+            "8U5G2eeDRE8",
+            "z9oz9h4ze5s",
+            "rloAPF5JwI4",
+            "8DtHc51dCC0"
+        ]
+    },
+    {
+        "topicName": "Pipelining, Static ILP Techniques",
+        "videos": [
+            "QPKMlUL3Ruw",
+            "3rydKkOWq7g"
+        ]
+    },
+    {
+        "topicName": "Static ILP Techniques II",
+        "videos": [
+            "Q45iEIq3V3w",
+            "_cVX3Zi3Myw",
+            "pJwN7eiuQq4",
+            "z9LdFooYbNE"
+        ]
+    },
+    {
+        "topicName": "Branch Prediction",
+        "videos": [
+            "iCUb_219fcs",
+            "d1PPX00ahPs"
+        ]
+    },
+    {
+        "topicName": "Branch Prediction, Out-Of-Order Execution",
+        "videos": [
+            "Oqm2WE2UZMM",
+            "0yYAVh7RPnw",
+            "Qlu3t80XaCc",
+            "SAM2eOTimmc"
+        ]
+    },
+    {
+        "topicName": "Out-Of-Order Implementations",
+        "videos": [
+            "HKXDVC5hodM",
+            "O2XjE94Fes8"
+        ]
+    },
+    {
+        "topicName": "Out-Of-Order Examples, Load/Store Queues",
+        "videos": [
+            "RnUFqoztK8g",
+            "P3KjMuLEP9A",
+            "WrFALUCn3Ww",
+            "n_hPKiYuOZY",
+            "0mo-qlutDh8"
+        ]
+    },
+    {
+        "topicName": "LSQ, Caching",
+        "videos": [
+            "BugqvXP-oUE"
+        ]
+    },
+    {
+        "topicName": "Cache Organizations",
+        "videos": [
+            "WW-_i8LmgvE"
+        ]
+    },
+    {
+        "topicName": "Caching Policies, Virtual Memory",
+        "videos": [
+            "9WFKezNvNuQ",
+            "DvkcN8fU98w",
+            "S7iAIXtQuM8",
+            "2iuNBCBH7I4",
+            "GVfbw5Gz1fQ",
+            "qFFnaWS_UT0"
+        ]
+    },
+    {
+        "topicName": "Virtual Memory",
+        "videos": [
+            "d-EQIMgl7R0",
+            "sv9SgH9UA9U",
+            "cP3zeaDcq6A"
+        ]
+    },
+    {
+        "topicName": "DRAM-Based Memory Systems",
+        "videos": [
+            "ls8aI5pdjHs",
+            "DiCxUs5cj2U",
+            "YpTAMMGIq4Y",
+            "yzph0BfTt2A"
+        ]
+    },
+    {
+        "topicName": "Memory Systems",
+        "videos": [
+            "tjjxC2PBals",
+            "563MOx4LkjU",
+            "zg-0R4rdjK4",
+            "ZYCp5QYHBTQ"
+        ]
+    },
+    {
+        "topicName": "Security",
+        "videos": [
+            "NNqfHCmA8uI",
+            "Y7vhrafsXws"
+        ]
+    },
+    {
+        "topicName": "Multiprocessors, Coherence",
+        "videos": [
+            "fG3pmE2iRzo",
+            "XQQ-ufn0NPw",
+            "J6RX0jZbJnY",
+            "u9awKNFmwdY",
+            "Cylfb-K4zAg",
+            "n8no1Km9Wds"
+        ]
+    },
+    {
+        "topicName": "Multi-Threading, Synchronization",
+        "videos": [
+            "AB8fVXKh29s",
+            "aFHCWS-V2ok",
+            "6jTZ0Cey9XU",
+            "dBGX5yb0nms",
+            "86jF1v9rcjg"
+        ]
+    },
+    {
+        "topicName": "Synchronization, Consistency",
+        "videos": [
+            "mcnLZhNBtcc",
+            "5ENpXsBUqEo",
+            "VfIeD_B4YhM",
+            "DzGk1FXrQEo",
+            "AOhRBI7GyZU",
+            "JjRnHP_u-aY"
+        ]
+    },
+    {
+        "topicName": "Interconnection Networks",
+        "videos": [
+            "2r-tLn6BPy0",
+            "zqsFDPEJy0Q",
+            "jlrY4wjY67c",
+            "bVUj4rDM2R0",
+            "b6kN8uSvvkY",
+            "FHUstUP-6_8",
+            "dCbnt4bWDqk",
+            "ybjFYDPdaFk",
+            "MsIEPjcg2rg"
+        ]
+    },
+    {
+        "topicName": "Networks, Datacenters, Reliability",
+        "videos": [
+            "Z_Ng_P-f2h8"
+        ]
+    },
+    {
+        "topicName": "Accelerators",
+        "videos": [
+            "FcS_kQOIykU"
         ]
     }
 ]
