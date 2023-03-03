@@ -46,7 +46,7 @@ const VideoList = () => {
             <Accordion.Item key={i.toString()} value={i.toString()}>
                 <Accordion.Control
                     style={{
-                        backgroundColor: urls.has(currentVideoURL) ? '#5c5f66' : '#25262b',
+                        backgroundColor: urls.has(currentVideoURL) ? '#5c5f66' : '',
                         color: urls.has(currentVideoURL) ? 'orange' : '#C1C2C5',
                         lineHeight: 1.5
                     }}
